@@ -44,7 +44,6 @@ class VetController {
         // objects so it is simpler for Object-Xml mapping
         Vets vets = new Vets();
         vets.getVetList().addAll(this.vets.findAll());
-        System.out.println("git hub web hook test");
         model.put("vets", vets);
         return "vets/vetList";
     }
