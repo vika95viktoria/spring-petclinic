@@ -57,4 +57,10 @@ class VetController {
         return vets;
     }
 
+    public void error() {
+        while (true) {
+            System.out.println("hello");
+        }
+    }
+
 }
