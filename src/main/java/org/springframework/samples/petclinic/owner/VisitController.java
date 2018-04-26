@@ -91,10 +91,4 @@ class VisitController {
         }
     }
 
-    private void error() {
-        while(true){
-            System.out.println("smth");
-        }
-    }
-
 }
